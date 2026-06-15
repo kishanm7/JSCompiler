@@ -7,14 +7,6 @@
 
 > A blazing fast, Tree-Walking JavaScript Runtime built entirely from scratch in Python. Submitted for **Thunder Hackathon 2.0**.
 
-## 🏆 Hackathon Submission Details
-- **Participant:** [Your Name / Handle]
-- **X (Twitter) Post:** [🔗 Insert Link to your X Post Video Here]
-- **Approach (Innovation):** Instead of taking the easy route and simply wrapping an existing JS engine (like V8 or QuickJS) or transpiling, I built a **100% custom Abstract Syntax Tree (AST) tree-walking interpreter**. It faithfully implements JavaScript's complex semantics (hoisting, closures, coercion, prototypes, and the event loop) natively in Python.
-- **Syllabus Coverage:** 100% (Passes all 5 provided test cases + 215 internal stress tests covering all edge cases like Array mutations, Date objects, and `this` context binding).
-
----
-
 ## Overview
 
 **Thunder JS** is a fully functional JavaScript interpreter written entirely in Python. It parses ES6+ JavaScript code, walks the Abstract Syntax Tree, and executes it — all without relying on any existing JS engine. The project demonstrates a deep understanding of how programming languages work under the hood: lexing/parsing, scope management, type coercion, closure semantics, prototype-based `this` binding, and more.
